@@ -1,0 +1,16 @@
+echo "# gittutorials" >> README.md
+git init
+
+git status
+git add README.md
+git commit -m "first commit"
+git push origin main
+
+git branch -M main
+git branch
+
+git remote add origin https://github.com/nv-basab/gittutorials.git
+git push -u origin main
+
+git remote -v
+git push origin main
