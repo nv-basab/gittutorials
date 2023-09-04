@@ -1,4 +1,4 @@
-echo "# gittutorials" >> README.md
+echo "Artificial Intelligence, Machine Learning, Deep Learning & Natural Language Processing related commands" >> README.md
 git init
 
 git status
@@ -14,3 +14,10 @@ git push -u origin main
 
 git remote -v
 git push origin main
+
+git remote add origin https://github.com/nv-basab/nlp.git
+git clone https://github.com/lazyprogrammer/machine_learning_examples.git
+
+git branch 
+
+wp2txt -i <input_filepath>
